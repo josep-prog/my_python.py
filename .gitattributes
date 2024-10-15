@@ -1,0 +1,18 @@
+# Set Python as the language for .py files
+*.py linguist-language=Python
+
+# Optional: Set Python for Jupyter Notebooks
+*.ipynb linguist-language=Python
+
+# You can also add other relevant languages if needed
+# For example, if you have Markdown files
+*.md linguist-language=Markdown
+
+# Set text files
+*.txt linguist-language=Text
+
+# Ignoring certain file types from linguist analysis (optional)
+*.log linguist-ignore
+*.csv linguist-ignore
+
+# If you have any other specific file types, you can define them here
